@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignorer les fichiers de configuration et les sockets
+*.sock
+*.cnf
+*.pool
+
+# Ignorer les répertoires Docker spécifiques
+DOCKER/mysql/
+
+# Ignorer les fichiers de configuration IDE
+.idea/
